@@ -1,0 +1,8 @@
+cloud.local:53 {
+    errors
+    hosts {
+        10.10.10.10 web.cloud.local
+        10.10.10.20 app-backend.cloud.local
+        fallthrough
+    }
+}
